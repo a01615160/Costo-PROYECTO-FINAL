@@ -10,7 +10,7 @@ st.header('Datos personales')
 def user_input_features():
   # Entrada
   Presupuesto = st.number_input('Presupuesto:', min_value=0.0, max_value=10000.0, value = 0.0)
-  Tiempo = st.number_input('Tiempo (Minutos):',  min_value=0, max_value=1, value = 0)
+  Tiempo = st.number_input('Tiempo (Minutos):',  min_value=0, max_value=1000, value = 0)
   Tipo = st.number_input('Tipo de actividad (Académico:0, Transporte:1, Alimentos/Salud:2, Ahorro inversión:3, Entretenimiento/Ocio:4, Ejercicio/Deporte:5):', min_value=0, max_value=5, value = 0)
   Momento = st.number_input('Momento del día (Mañana:0, Tarde:1, Noche:2):', min_value=0, max_value=2, value = 0)
   Personas = st.number_input('Cantidad de personas:', min_value=0, max_value=100, value = 0)
