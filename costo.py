@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 
 st.write(''' # Predicción del Costo  ''')
-st.image("costito.jpg", caption="Predicción del peso de una persona.")
+st.image("costito.jpg", caption="Intercambio económico.")
 
 st.header('Datos personales')
 
